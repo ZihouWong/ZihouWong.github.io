@@ -4,7 +4,6 @@ title: "iOS-Loading/Downloading image from URL on Swift"
 date: 2019-08-21
 categories: IOs
 
-layout: post
 comments: true
 
 ---

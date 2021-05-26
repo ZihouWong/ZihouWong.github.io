@@ -4,7 +4,6 @@ title: "Manage-You-Java-Version"
 date: 2017-10-14
 categories: Java Version Tools 
 
-layout: post
 comments: true
 
 ---

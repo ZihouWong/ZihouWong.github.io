@@ -4,7 +4,6 @@ title: "利用Jekyll搭建 GitHub Pages 个人博客并绑定个人域名 --Mac"
 date: 2017-04-14
 categories: jekyll
 
-layout: post
 comments: true
 
 ---

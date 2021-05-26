@@ -4,7 +4,6 @@ title: "probability-theory"
 date: 2017-01-01
 categories: 概率论
 
-layout: post
 comments: true
 
 ---

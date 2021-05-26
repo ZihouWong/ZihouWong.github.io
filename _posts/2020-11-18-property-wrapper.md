@@ -4,7 +4,6 @@ title: "区分 @State @StateObject @ObservedObject @EnvironmentObject "
 date: 2020-11-18
 categories: 
 
-layout: post
 <!--comments: true-->
 
 ---

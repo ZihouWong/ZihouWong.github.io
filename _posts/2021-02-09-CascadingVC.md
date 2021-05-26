@@ -8,7 +8,6 @@ open func scrollTo(_ component: ScrollableCascadableComponentType, contentOffset
     var combinedListVCOffset = frameForComponent(component)!.minY + contentOffset
     
     cascadeScrollView.bounds = CGRect(origin: CGPoint(x: CGFloat(0), y: combinedListVCOffset), size: cascadeScrollView.bounds.size)
-    layoutScrollView(includingComponentsNotInVisualRange: includingComponentsNotInVisualRange)
 }
 
 遇到了contentOffset = 0 的判断边界的问题

@@ -4,7 +4,6 @@ title: "linux-iptables"
 date: 2017-8-20
 categories: Linux iptables Mac
 
-layout: post
 comments: true
 
 ---

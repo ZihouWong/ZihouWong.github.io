@@ -4,7 +4,6 @@ title: "Machine-Learning-2"
 date: 2018-04-01
 categories: 机器学习
 
-layout: post
 comments: true
 
 ---

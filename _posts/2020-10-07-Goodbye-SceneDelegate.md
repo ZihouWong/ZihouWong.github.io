@@ -4,7 +4,6 @@ title: "Say Goodbye to SceneDelegate in SwiftUI"
 date: 2020-10-07
 categories: 
 
-layout: post
 <!--comments: true-->
 
 ---

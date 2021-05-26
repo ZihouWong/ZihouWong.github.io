@@ -75,7 +75,6 @@ extension CascadingVC {
                 $0.multicastDelegate.addDelegate(self)
             }
             .adhere(toSuperview: view)
-            .layout(view.bounds)
     }
 
     override open func viewDidLayoutSubviews() {
@@ -99,7 +98,6 @@ extension CascadingVC {
         loadComponentsIfNeeded()
         updateComponentsHiddenStatus()
         calculateViewVisibleArea()
-        layoutScrollView(includingComponentsNotInVisualRange: true)
     }
 
     open func updateComponentsIfNeeded() {
@@ -158,7 +156,6 @@ extension CascadingVC {
         return roundedVisiableAreaRectHeight == roundedScrollableComponentAreaRectHeight
     }
 
-    open func layoutScrollView(includingComponentsNotInVisualRange: Bool) {
         let containerVisibleArea = cascadeScrollView.bounds
 
         for component in availableCascadableComponentsInOrder {
@@ -332,7 +329,6 @@ public extension CascadingVC {
 
 extension CascadingVC: UIScrollViewDelegate {
     open func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        layoutScrollView(includingComponentsNotInVisualRange: false)
     }
 
     open func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {}

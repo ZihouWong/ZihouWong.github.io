@@ -4,7 +4,6 @@ title: "Setting Up Core Data"
 date: 2020-11-14s
 categories: 
 
-layout: post
 <!--comments: true-->
 
 ---

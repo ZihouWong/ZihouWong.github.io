@@ -4,7 +4,6 @@ title: "Machine Learning"
 date: 2018-03-25
 categories: 机器学习 
 
-layout: post
 comments: true
 
 ---

@@ -23,7 +23,6 @@ tags: [TAG]     # TAG names should always be lowercase
 ---
 ```
 
-> **Note**: The posts' ***layout*** has been set to `post` by default, so there is no need to add the variable ***layout*** in Front Matter block.
 
 ### Timezone of date
 

@@ -4,7 +4,6 @@ title: "iOS 开发中的 ViewModel"
 date: 2020-10-07
 categories: 
 
-layout: post
 <!--comments: true-->
 
 ---
